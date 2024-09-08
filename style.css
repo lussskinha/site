@@ -1,0 +1,215 @@
+/*Estilo Geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*pagina de apresentação*/
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgba(255, 252, 252, 0.218);
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.25);
+
+}
+
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 80px;
+}
+
+header .Contato button{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: gold;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+ button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px rgba(106, 103, 103, 0.87);
+    transform: scale(1.05);
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid gold;
+}
+
+.center{
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+ 
+/*estilo do formulario*/
+section.formulario{
+    padding: 80px 4%;
+}
+
+.titulo {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    color: white;       
+    padding: 20px 40px;        
+    background: none; 
+    margin-bottom: 0;   
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(31, 29, 29, 0.474);
+    border: 0;
+    outline: 0;
+    padding: 25px 20px;
+    border-radius: 15px;
+    color: white;
+    
+
+}
+form textarea{
+    resize: none;
+    max-height: 300px;
+}
+form .btn-enviar{
+    margin-top: 15px;
+    text-align: center;
+}
+form .btn-enviar input[type=submit]{
+    width: 120px;
+    background-color: gold;
+    color: black;
+    font-size: 600;
+    cursor: pointer;
+    transition: .2s;
+}
+ /* Página Extra*/
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Página de apresentação extra */
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgba(255, 252, 252, 0.218);
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.25);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 80px;
+}
+
+header .Contato button {
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: gold;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover, form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px rgba(106, 103, 103, 0.87);
+    transform: scale(1.05);
+}
+
+.center {
+    text-align: center;
+}
+
+h1, h3, p {
+    color: white;
+    text-align: center;
+}
